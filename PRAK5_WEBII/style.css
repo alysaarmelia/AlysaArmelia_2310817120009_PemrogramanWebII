@@ -1,0 +1,110 @@
+  * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('perpustakaan.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      backdrop-filter: blur(6px);
+      background-color: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 80px; 
+    }
+
+    .content-box {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 30px;   
+        padding: 20px 15px;            
+        border-radius: 10px;
+        width: 100%;
+        max-width: 350px;           
+        box-shadow: 0 0 10px rgba(0,0,0,0.4); 
+      }
+
+    .title {
+      text-align: center;
+      margin-bottom: 12px;
+    }
+
+    .title h1 {
+      font-size: 28px;
+      color: #333;
+    }
+
+    .title span {
+      font-style: italic;
+      font-weight: bold;
+      text-decoration: underline;
+      color: rgb(233, 136, 75);
+    }
+
+    .subtitle {
+      font-size: 12px;
+      color: #555;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    form label {
+      display: block;
+      margin-top: 8px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    form input[type="text"],
+    form input[type="number"],
+    form input[type="email"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 4px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    form input[type="submit"] {
+      margin-top: 20px;
+      background-color: #e69c34;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    form input[type="submit"]:hover {
+      background-color: #e69c34;
+    }
+
+    .link-daftar {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .link-daftar a {
+      color: #e08549;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .link-daftar a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 480px) {
+        .content-box {
+          padding: 15px;
+          max-width: 90%;
+        }
+}
