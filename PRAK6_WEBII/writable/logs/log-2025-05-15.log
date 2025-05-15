@@ -1,0 +1,15 @@
+CRITICAL - 2025-05-15 04:05:42 --> ErrorException: Undefined variable $skill
+[Method: GET, Route: profile]
+in APPPATH\Views\profile.php on line 30.
+ 1 APPPATH\Views\profile.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $skill', 'C:\\xampp\\htdocs\\Praktikum_Pemrograman_WebII\\PRAK6_WEBII\\app\\Views\\profile.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Praktikum_Pemrograman_WebII\\PRAK6_WEBII\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\Profile.php(13): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Praktikum_Pemrograman_WebII\\PRAK6_WEBII\\public\\index.php')
