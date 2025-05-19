@@ -5,7 +5,6 @@
     <form action="/login/valid" method="post" class="bg-white p-8 rounded shadow-md w-full max-w-sm space-y-4">
         <h2 class="text-2xl font-bold text-center text-gray-800">Login</h2>
 
-        <!-- Flash Messages -->
         <?php if (session()->getFlashdata('error')) : ?>
             <div class="bg-red-100 text-red-700 p-3 rounded text-sm">
                 <?= esc(session()->getFlashdata('error')) ?>
