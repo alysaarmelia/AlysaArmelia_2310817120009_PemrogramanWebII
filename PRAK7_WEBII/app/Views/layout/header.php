@@ -1,6 +1,6 @@
 <header class="bg-gray-800 text-white p-4 shadow-md">
     <div class="container mx-auto flex justify-between items-center">
-        <h1 class="text-2xl md:text-3xl font-bold">Book Testing</h1>
+        <h1 class="text-2xl md:text-3xl font-bold">Perpustakaan Shasha</h1>
         <nav class="flex space-x-6">
             <a href="/" class="hover:text-gray-300 transition duration-300 text-lg">Home</a>
             <?php if (session()->get('isLog')) : ?>
