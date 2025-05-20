@@ -19,7 +19,6 @@
     </form>
 
     <hr class="my-10">
-
     <h2 class="text-2xl font-semibold mb-4">Daftar Buku</h2>
 
     <?php if (!empty($buku)): ?>

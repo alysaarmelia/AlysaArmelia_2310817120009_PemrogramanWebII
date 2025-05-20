@@ -1,7 +1,7 @@
 <?= $this->extend('layout/main.php') ?>
 <?= $this->section('content') ?>
 
-<div class="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+<div class="flex flex-col flex-grow items-center justify-center min-h-full py-32 px-4">
     <form action="/login/valid" method="post" class="bg-white p-8 rounded shadow-md w-full max-w-sm space-y-4">
         <h2 class="text-2xl font-bold text-center text-gray-800">Login</h2>
 
