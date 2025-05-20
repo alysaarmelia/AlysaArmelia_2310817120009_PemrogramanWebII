@@ -4,7 +4,6 @@
 <style>
     body {
         font-family: 'Poppins', sans-serif;
-        background-image: url('<?= base_url('image/image.jpg') ?>');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
